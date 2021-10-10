@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/form.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="popup-ovelay"></div>
+        <dialog class="popup">
+            <div class="popcon">
+               
+                    <img class="popimg" alt="darklogo" src="/Assets/logo_dark.png">
+                
+                <div class="popcon1">
+                    <h3>MERCI<br/>
+                    Votre message a bien été envoyé !</h3>
+                
+                 </div>
+            
+            <div class="popcon2">
+                <p class="poptext">Nous essaierons d’y répondre au mieux dans les plus brefs
+                    délais. À bientot chez Mr.Coffee</p>
+            </div>
+              
+                <button class="f1button">FERMER</button>
+            </div>
+           
+        </dialog>
+        <header class="header">
+            <img class="wlogoh" alt="whitelogo" src="./Assets/full_logo_white.png">
+            <div class="nav">   
+                <ul>
+                    <li>
+                        <a href="./index.html">Accueil</a>
+                        <a href="./about.html" >Qui Sommes-nous?</a>
+                        <a href="./contact.html">Nous Contacter</a>
+                    </li>
+                </ul>      
+            </div>
+        
+        </header><!--end header-->
+        
+        <div class="subcontainer1">
+            <div class="flogob">
+                <img class="blogo" src="./Assets/full_logo_dark.png">
+            </div>
+        </div><!--end of subcontainer1-->
+        <div class="csubcontainer1">
+            <p class="ctitle">Dites nous tout !</p>
+        </div>
+        <!--start form-->
+        <form id="contact-form">
+            <div class="form-sam">
+              <label for="fname">Nom *</label>
+              <input id="fname" type="text" name="fname" required>
+            </div>
+            <div class="form-sam">
+                <label for="lname">Prénom *</label>
+                <input type="text" name="lastname" id="lname" required>
+              </div>
+              <div class="form-sam">
+                <label for="telephone">Téléphone</label>
+                <input type="text" name="telephone" id="telephone" place holder="+(61) 455 562 400 or 02 80268989"required>
+              </div>
+            <div class="form-sam">
+              <label for="email">Adresse mail *</label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-sam">
+                <label for="message">Message *</label>
+                <textarea name="message" id="message" placeholder="Tapez votre message ici" required></textarea>
+              </div>
+              <div class="fbuttoncon">
+                <button class="fbutton" type="submit">Submit</button>
+                </div>
+
+          </form>
+
+        <div class="csubcontainer1">
+            <p class="ctitle">On vous attend !</p>
+        </div>
+        <div class="csubcontainer2">
+            <p class="ctext"><span class="spantext">Mr.Coffee</span></p>
+            <p class="ctext">15 place Jules Guesde</p>
+            <p class="ctext">75006 Paris</p>
+        </div>
+        <div class="csubcontainer3">
+            <p class="ctext">Tel : +33 9 46 25 78 45</p>
+            <p class="ctext">Mail : <a class="cmail" href="mailto:contact@mr-coffee.com">contact@mr-coffee.com</a></p>
+
+        </div>
+        <div class="csubcontainer4">
+            <img class="cmap" alt="cafemap" src="./Assets/carte_contact.png">
+        </div>
+
+
+
+
+        <footer class="footer">
+                
+            <img class="wlogof" alt="whitelogofooter" src="./Assets/logo_blanc.png">
+               
+            <div class="nav1box">
+                <div class="snav1box">
+                    <p class="nav1text">Suivez nous sur les réseaux sociaux !</p> 
+                </div>
+                <div class="snav1box2">
+                    <a class="smedialink" href="https://www.linkedin.com/"><img class="smedia" alt="slink" src="./Assets/logo_linkedin.png"></a>
+                    <a class="smedialink" href="https://twitter.com/"><img class="smedia" alt="slink" src="./Assets/logo_twitter.png"></a>
+                    <a class="smedialink" href="https://www.facebook.com/"><img class="smedia" alt="slink" src="./Assets/logo_facebook.png"></a>
+                </div>
+    
+                
+        </footer><!--end of footer-->
+
+    </div> <!--end of container-->
+
+</body>
+</html>
